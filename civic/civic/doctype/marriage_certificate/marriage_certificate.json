@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:57.956987",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "certificate_id",
+  "bride_name",
+  "groom_name",
+  "marriage_date",
+  "column_break_wkbd",
+  "marriage_place",
+  "issuing_authority",
+  "issue_date",
+  "expiry_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "certificate_id",
+   "fieldtype": "Data",
+   "label": "Certificate ID"
+  },
+  {
+   "fieldname": "bride_name",
+   "fieldtype": "Data",
+   "label": "Bride's Name"
+  },
+  {
+   "fieldname": "groom_name",
+   "fieldtype": "Data",
+   "label": "Groom's Name"
+  },
+  {
+   "fieldname": "marriage_date",
+   "fieldtype": "Date",
+   "label": "Date of Marriage"
+  },
+  {
+   "fieldname": "marriage_place",
+   "fieldtype": "Data",
+   "label": "Place of Marriage"
+  },
+  {
+   "fieldname": "issuing_authority",
+   "fieldtype": "Data",
+   "label": "Issuing Authority"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "column_break_wkbd",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-07 14:53:15.620961",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Marriage Certificate",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

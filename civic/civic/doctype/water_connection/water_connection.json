@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:51.007092",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "property_id",
+  "connection_type",
+  "connection_status",
+  "column_break_gqbr",
+  "installation_date",
+  "meter_number",
+  "meter_reading"
+ ],
+ "fields": [
+  {
+   "fieldname": "property_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Property ID",
+   "options": "Property"
+  },
+  {
+   "fieldname": "connection_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Connection Type",
+   "options": "Residential\nCommercial\nIndustrial"
+  },
+  {
+   "fieldname": "connection_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Connection Status",
+   "options": "Active\nInactive\nPending"
+  },
+  {
+   "fieldname": "installation_date",
+   "fieldtype": "Date",
+   "label": "Installation Date"
+  },
+  {
+   "fieldname": "meter_number",
+   "fieldtype": "Data",
+   "label": "Meter Number"
+  },
+  {
+   "fieldname": "meter_reading",
+   "fieldtype": "Int",
+   "label": "Meter Reading"
+  },
+  {
+   "fieldname": "column_break_gqbr",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-08 18:26:09.056394",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Water Connection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

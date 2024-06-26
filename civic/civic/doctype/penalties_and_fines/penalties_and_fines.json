@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:penalty_id",
+ "creation": "2023-07-03 10:16:55.639991",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "penalty_id",
+  "penalty_amount",
+  "offense",
+  "fine_date",
+  "paid",
+  "column_break_gcyo",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "penalty_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Penalty ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "offense",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Offense",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "penalty_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Penalty Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "fine_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Fine Date",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "paid",
+   "fieldtype": "Check",
+   "label": "Paid"
+  },
+  {
+   "fieldname": "column_break_gcyo",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 15:13:26.916364",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Penalties and Fines",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:assessment_id",
+ "creation": "2023-07-03 10:16:50.065098",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assessment_id",
+  "assessment_value",
+  "assessment_date",
+  "column_break_wuiu",
+  "tax_rate",
+  "tax_due",
+  "payment_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "assessment_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Assessment ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "assessment_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Assessment Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "assessment_value",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Assessed Value",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax_rate",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Tax Rate",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tax_due",
+   "fieldtype": "Currency",
+   "label": "Tax Due",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Payment Status",
+   "options": "Unpaid\nPaid",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wuiu",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-08 15:05:16.930737",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Property Tax Assessment",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

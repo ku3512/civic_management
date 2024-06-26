@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:55.110033",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "regulation_id",
+  "regulation_title",
+  "effective_date",
+  "expiration_date",
+  "status",
+  "column_break_xmzd",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "regulation_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Regulation ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "regulation_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Regulation Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Effective Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "expiration_date",
+   "fieldtype": "Date",
+   "label": "Expiration Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Active\nInactive\nExpired",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xmzd",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-07 12:10:04.171069",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Waste Management Regulations",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

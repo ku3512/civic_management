@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:56.551958",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "property_id",
+  "property_type",
+  "property_address",
+  "rental_amount",
+  "column_break_hffk",
+  "lease_start_date",
+  "lease_end_date",
+  "tenant_name",
+  "tenant_contact"
+ ],
+ "fields": [
+  {
+   "fieldname": "property_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Property ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_address",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Property Address",
+   "reqd": 1
+  },
+  {
+   "fieldname": "property_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Property Type",
+   "options": "Residential\nCommercial\nIndustrial",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rental_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Rental Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lease_start_date",
+   "fieldtype": "Date",
+   "label": "Lease Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lease_end_date",
+   "fieldtype": "Date",
+   "label": "Lease End Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tenant_name",
+   "fieldtype": "Data",
+   "label": "Tenant Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tenant_contact",
+   "fieldtype": "Data",
+   "label": "Tenant Contact",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hffk",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-08 12:08:07.499375",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Rental Property",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include civic *.css
+recursive-include civic *.csv
+recursive-include civic *.html
+recursive-include civic *.ico
+recursive-include civic *.js
+recursive-include civic *.json
+recursive-include civic *.md
+recursive-include civic *.png
+recursive-include civic *.py
+recursive-include civic *.svg
+recursive-include civic *.txt
+recursive-exclude civic *.pyc

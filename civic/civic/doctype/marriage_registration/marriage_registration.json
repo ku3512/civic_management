@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:57.724037",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bride_name",
+  "bride_age",
+  "groom_name",
+  "groom_age",
+  "marriage_date",
+  "column_break_opxp",
+  "marriage_place",
+  "witness1_name",
+  "witness1_id",
+  "witness2_name",
+  "witness2_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "bride_name",
+   "fieldtype": "Data",
+   "label": "Bride's Name"
+  },
+  {
+   "fieldname": "bride_age",
+   "fieldtype": "Int",
+   "label": "Bride's Age"
+  },
+  {
+   "fieldname": "groom_name",
+   "fieldtype": "Data",
+   "label": "Groom's Name"
+  },
+  {
+   "fieldname": "groom_age",
+   "fieldtype": "Int",
+   "label": "Groom's Age"
+  },
+  {
+   "fieldname": "marriage_date",
+   "fieldtype": "Date",
+   "label": "Date of Marriage"
+  },
+  {
+   "fieldname": "marriage_place",
+   "fieldtype": "Data",
+   "label": "Place of Marriage"
+  },
+  {
+   "fieldname": "witness1_name",
+   "fieldtype": "Data",
+   "label": "First Witness Name"
+  },
+  {
+   "fieldname": "witness1_id",
+   "fieldtype": "Attach",
+   "label": "First Witness ID Proof"
+  },
+  {
+   "fieldname": "witness2_name",
+   "fieldtype": "Data",
+   "label": "Second Witness Name"
+  },
+  {
+   "fieldname": "witness2_id",
+   "fieldtype": "Attach",
+   "label": "Second Witness ID Proof"
+  },
+  {
+   "fieldname": "column_break_opxp",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 16:47:39.464414",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Marriage Registration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

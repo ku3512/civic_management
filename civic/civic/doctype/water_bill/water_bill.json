@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:bill_number",
+ "creation": "2023-07-03 10:16:51.426246",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "connection_id",
+  "bill_number",
+  "billing_period",
+  "total_usage",
+  "column_break_jcmv",
+  "bill_amount",
+  "payment_status",
+  "due_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "bill_number",
+   "fieldtype": "Data",
+   "label": "Bill Number",
+   "unique": 1
+  },
+  {
+   "fieldname": "connection_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Connection ID",
+   "options": "Water Connection",
+   "unique": 1
+  },
+  {
+   "fieldname": "billing_period",
+   "fieldtype": "Date",
+   "label": "Billing Period"
+  },
+  {
+   "fieldname": "total_usage",
+   "fieldtype": "Int",
+   "label": "Total Usage"
+  },
+  {
+   "fieldname": "bill_amount",
+   "fieldtype": "Currency",
+   "label": "Bill Amount"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Payment Status",
+   "options": "Unpaid\nPaid"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "column_break_jcmv",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 09:48:08.233819",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Water Bill",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

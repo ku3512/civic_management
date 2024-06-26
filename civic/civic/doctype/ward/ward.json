@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:ward_name",
+ "creation": "2023-07-11 15:57:48.254142",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ward_name",
+  "ward_code",
+  "zone",
+  "column_break_hoof",
+  "ward_incharge",
+  "contact_number",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "ward_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ward Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "ward_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ward Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "zone",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Zone",
+   "options": "Zone",
+   "reqd": 1
+  },
+  {
+   "fieldname": "ward_incharge",
+   "fieldtype": "Data",
+   "label": "Ward Incharge"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Phone",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "column_break_hoof",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-11 16:18:20.504031",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Ward",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

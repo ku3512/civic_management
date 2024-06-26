@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:report_id",
+ "creation": "2023-07-03 10:16:52.009063",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_id",
+  "date_of_test",
+  "column_break_bhbi",
+  "location_of_test",
+  "water_quality_index",
+  "section_break_7u8l",
+  "contaminants_detected"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Report ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "date_of_test",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of Test",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location_of_test",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location of Test",
+   "reqd": 1
+  },
+  {
+   "fieldname": "water_quality_index",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Water Quality Index",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contaminants_detected",
+   "fieldtype": "Table",
+   "label": "Contaminants Detected",
+   "options": "Contaminants Detected Table"
+  },
+  {
+   "fieldname": "section_break_7u8l",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_bhbi",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 10:00:18.912981",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Water Quality Report",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

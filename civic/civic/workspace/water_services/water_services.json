@@ -1,0 +1,99 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"KCWq2v872o\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Water Services</span>\",\"col\":12}},{\"id\":\"lIwpQVb39b\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3vjuAl_rKx\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Application\",\"col\":3}},{\"id\":\"tWMbtl03y_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Application Status Tracking\",\"col\":3}},{\"id\":\"uDweDsff70\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Connection\",\"col\":3}},{\"id\":\"5FTX-232F4\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Supply Schedule\",\"col\":3}},{\"id\":\"2pKsC-Jh09\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Usage\",\"col\":3}},{\"id\":\"_vAFtaU7ZX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Tariff\",\"col\":3}},{\"id\":\"WyoyD7Q7ia\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Bill\",\"col\":3}},{\"id\":\"p_Q9YFwSvs\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Quality Report\",\"col\":3}},{\"id\":\"flAE5o5ge6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Conservation Category\",\"col\":3}},{\"id\":\"8XlYNGpZ9v\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Water Conservation Tips\",\"col\":3}}]",
+ "creation": "2023-07-07 17:38:13.543361",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "Water Services",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Water Services",
+ "links": [],
+ "modified": "2023-07-10 18:17:42.281011",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Water Services",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 7.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "New Application",
+   "link_to": "New Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Application Status Tracking",
+   "link_to": "Application Status Tracking",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Connection",
+   "link_to": "Water Connection",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Supply Schedule",
+   "link_to": "Water Supply Schedule",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Usage",
+   "link_to": "Water Usage",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Tariff",
+   "link_to": "Water Tariff",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Bill",
+   "link_to": "Water Bill",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Quality Report",
+   "link_to": "Water Quality Report",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Conservation Tips",
+   "link_to": "Water Conservation Tips",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Water Conservation Category",
+   "link_to": "Water Conservation Category",
+   "type": "DocType"
+  }
+ ],
+ "title": "Water Services"
+}

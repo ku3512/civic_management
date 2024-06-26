@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:53.637907",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bill_id",
+  "account_link",
+  "billing_period",
+  "column_break_zyda",
+  "due_date",
+  "total_amount",
+  "payment_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "bill_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Bill ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "account_link",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Linked Account",
+   "options": "Waste Management Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "billing_period",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Billing Period",
+   "reqd": 1
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Payment Status",
+   "options": "Paid\nUnpaid",
+   "reqd": 1
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zyda",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 12:39:07.559104",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Waste Management Bill",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

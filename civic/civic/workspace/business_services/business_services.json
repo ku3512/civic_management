@@ -1,0 +1,127 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ORgFJcGDO7\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Business Services</span>\",\"col\":12}},{\"id\":\"B8GJ5reKeF\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"VevvSvT9gT\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Unit\",\"col\":3}},{\"id\":\"cwasvnhYd7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Account\",\"col\":3}},{\"id\":\"pUgTaxUjbI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Permit\",\"col\":3}},{\"id\":\"lOdlcv5-1h\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Tariff Category\",\"col\":3}},{\"id\":\"jUMiMz0Cv9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Rental Property\",\"col\":3}},{\"id\":\"kFjI-mfl_s\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hoarding Application\",\"col\":3}},{\"id\":\"dAKh4AYEYe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Hoarding Payment\",\"col\":3}},{\"id\":\"ITrKMipLM7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trade License\",\"col\":3}},{\"id\":\"2qVP0Y9JDe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Trade Ledger Report\",\"col\":3}},{\"id\":\"cp8Iwgxc8_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Food License\",\"col\":3}},{\"id\":\"2cFZtV8xGV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Tax\",\"col\":3}},{\"id\":\"nGIV1-JRLc\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Advertisement Tax\",\"col\":3}},{\"id\":\"9Vbge8dyuM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Inspection Report\",\"col\":3}},{\"id\":\"oaPcMUdEwq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Penalties and Fines\",\"col\":3}}]",
+ "creation": "2023-07-08 09:47:42.407468",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "Business Services",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Business Services",
+ "links": [],
+ "modified": "2023-07-10 18:17:42.154333",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Business Services",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 5.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Unit",
+   "link_to": "Unit",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Business Account",
+   "link_to": "Business Account",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Business Permit",
+   "link_to": "Business Permit",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Tariff Category",
+   "link_to": "Tariff Category",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Rental Property",
+   "link_to": "Rental Property",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Hoarding Application",
+   "link_to": "Hoarding Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Hoarding Payment",
+   "link_to": "Hoarding Payment",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Trade License",
+   "link_to": "Trade License",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Trade Ledger Report",
+   "link_to": "Trade Ledger Report",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Food License",
+   "link_to": "Food License",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Business Tax",
+   "link_to": "Business Tax",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Advertisement Tax",
+   "link_to": "Advertisement Tax",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Business Inspection Report",
+   "link_to": "Business Inspection Report",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Penalties and Fines",
+   "link_to": "Penalties and Fines",
+   "type": "DocType"
+  }
+ ],
+ "title": "Business Services"
+}

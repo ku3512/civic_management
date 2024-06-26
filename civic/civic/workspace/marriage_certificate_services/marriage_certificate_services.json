@@ -1,0 +1,50 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"Og8kkdxWM4\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Marriage Certificate Services</span>\",\"col\":12}},{\"id\":\"XepmBapH69\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"jX44clHp9R\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\" New Marriage Registration\",\"col\":3}},{\"id\":\"jtP1LszEGe\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Payment for Marriage Certificate\",\"col\":3}},{\"id\":\"Sf2GMdZlxB\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Marriage Certificate\",\"col\":3}}]",
+ "creation": "2023-07-08 10:04:37.632311",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "Marriage Certificate Services",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Marriage Certificate Services",
+ "links": [],
+ "modified": "2023-07-10 18:17:42.102222",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Marriage Certificate Services",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 4.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": " New Marriage Registration",
+   "link_to": "Marriage Registration",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Payment for Marriage Certificate",
+   "link_to": "Payment for Marriage Certificate",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Marriage Certificate",
+   "link_to": "Marriage Certificate",
+   "type": "DocType"
+  }
+ ],
+ "title": "Marriage Certificate Services"
+}

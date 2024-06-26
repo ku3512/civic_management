@@ -1,0 +1,113 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"8pmF3mNQHV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Solid Waste Management</span>\",\"col\":12}},{\"id\":\"NkmaAJerwz\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"87qL3f61dr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Type\",\"col\":3}},{\"id\":\"UGzREgCH_p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New SWM Application\",\"col\":3}},{\"id\":\"xcXk1H5eMF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"SWM Application Status Tracking\",\"col\":3}},{\"id\":\"QifC2IeVYq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Management Account\",\"col\":3}},{\"id\":\"uApMFC-X8O\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Collection Schedule\",\"col\":3}},{\"id\":\"Odrj2MbWfM\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Collection Vehicle\",\"col\":3}},{\"id\":\"foo5qyW1M7\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Collection Record\",\"col\":3}},{\"id\":\"UP71KqWvtv\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Disposal Method\",\"col\":3}},{\"id\":\"_VhwNWxJgu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Processing Facility\",\"col\":3}},{\"id\":\"Bft-FyJjpY\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Recycling Program\",\"col\":3}},{\"id\":\"a6HqqsldGL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Management Regulations\",\"col\":3}},{\"id\":\"J9dFA4YMks\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waste Management Bill\",\"col\":3}}]",
+ "creation": "2023-07-07 18:02:35.393064",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "Solid Waste Management",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Solid Waste Management",
+ "links": [],
+ "modified": "2023-07-10 18:17:42.220011",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Solid Waste Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 6.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Type",
+   "link_to": "Waste Type",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "New SWM Application",
+   "link_to": "New SWM Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "SWM Application Status Tracking",
+   "link_to": "SWM Application Status Tracking",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Management Account",
+   "link_to": "Waste Management Account",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Collection Schedule",
+   "link_to": "Waste Collection Schedule",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Collection Vehicle",
+   "link_to": "Waste Collection Vehicle",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Collection Record",
+   "link_to": "Waste Collection Record",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Disposal Method",
+   "link_to": "Waste Disposal Method",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Processing Facility",
+   "link_to": "Waste Processing Facility",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Recycling Program",
+   "link_to": "Recycling Program",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Management Regulations",
+   "link_to": "Waste Management Regulations",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Waste Management Bill",
+   "link_to": "Waste Management Bill",
+   "type": "DocType"
+  }
+ ],
+ "title": "Solid Waste Management"
+}

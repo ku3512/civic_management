@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:57.531248",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "license_id",
+  "business_id",
+  "issue_date",
+  "column_break_gdpp",
+  "expiry_date",
+  "license_status",
+  "license_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "license_id",
+   "fieldtype": "Data",
+   "label": "License ID"
+  },
+  {
+   "fieldname": "business_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Business ID",
+   "options": "Business Account"
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "expiry_date",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "license_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "License Status",
+   "options": "Active\nExpired\nSuspended"
+  },
+  {
+   "fieldname": "license_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "License Type",
+   "options": "Restaurant\nCatering\nFood Truck\nBakery\nOther"
+  },
+  {
+   "fieldname": "column_break_gdpp",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-07 14:34:39.272573",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Food License",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

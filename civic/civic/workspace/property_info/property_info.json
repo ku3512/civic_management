@@ -1,0 +1,92 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"p0MhMyHzyE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Property Info</span>\",\"col\":12}},{\"id\":\"YW0m0hrY7L\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"3sjZKGaO5F\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property List\",\"col\":3}},{\"id\":\"z_eGkQcvRy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Property\",\"col\":3}},{\"id\":\"4weSEajn2a\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Owner\",\"col\":3}},{\"id\":\"c77zSC2GYU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Maintenance\",\"col\":3}},{\"id\":\"brrHEtrjF6\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Tax Assessment\",\"col\":3}},{\"id\":\"6EjQRIGKVw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Tax\",\"col\":3}},{\"id\":\"gSZmwwFJqH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Documents\",\"col\":3}},{\"id\":\"jXfUVrmPKw\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"No Dues Certificate\",\"col\":3}},{\"id\":\"jAhaBFwzd9\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Property Transfer History\",\"col\":3}}]",
+ "creation": "2023-07-07 18:26:39.642216",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "Property Info",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Property Info",
+ "links": [],
+ "modified": "2023-07-10 18:17:42.330444",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Property Info",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 8.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Property List",
+   "link_to": "Property",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "New Property",
+   "link_to": "Property",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Property Owner",
+   "link_to": "Property Owner",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Property Maintenance",
+   "link_to": "Property Maintenance",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Property Tax Assessment",
+   "link_to": "Property Tax Assessment",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Property Tax",
+   "link_to": "Property Tax",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Property Documents",
+   "link_to": "Property Documents",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "No Dues Certificate",
+   "link_to": "No Dues Certificate",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Property Transfer History",
+   "link_to": "Property Transfer History",
+   "type": "DocType"
+  }
+ ],
+ "title": "Property Info"
+}

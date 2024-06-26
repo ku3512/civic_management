@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:54.736821",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "facility_id",
+  "facility_name",
+  "facility_type",
+  "column_break_hdue",
+  "location",
+  "capacity",
+  "operational_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "facility_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "facility_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Facility Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "facility_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Facility Type",
+   "options": "Composting\nIncineration\nRecycling\nLandfill",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Int",
+   "label": "Capacity (in Tonnes)"
+  },
+  {
+   "fieldname": "operational_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Operational Status",
+   "options": "Operational\nUnder Maintenance\nOut of Service",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hdue",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-07 11:55:08.291724",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Waste Processing Facility",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

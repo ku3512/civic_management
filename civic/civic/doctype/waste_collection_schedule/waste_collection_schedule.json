@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:schedule_id",
+ "creation": "2023-07-03 10:16:53.310961",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "schedule_id",
+  "waste_management_account_link",
+  "collection_frequency",
+  "column_break_mtiw",
+  "next_collection_date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "schedule_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Schedule ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "waste_management_account_link",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Linked Waste Management Account",
+   "options": "Waste Management Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "collection_frequency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Collection Frequency",
+   "options": "Daily\nBi-weekly\nWeekly\nMonthly",
+   "reqd": 1
+  },
+  {
+   "fieldname": "next_collection_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Next Collection Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Active\nInactive",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mtiw",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 11:35:05.623981",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Waste Collection Schedule",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

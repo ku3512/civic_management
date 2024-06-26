@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:record_id",
+ "creation": "2023-07-03 10:16:53.494942",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "record_id",
+  "schedule_link",
+  "collection_date",
+  "column_break_sriq",
+  "waste_collected",
+  "collection_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "record_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Record ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "schedule_link",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Linked Schedule",
+   "options": "Waste Collection Schedule",
+   "reqd": 1
+  },
+  {
+   "fieldname": "collection_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Collection Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "waste_collected",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Waste Collected (kg)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "collection_status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Collection Status",
+   "options": "Collected\nNot Collected",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_sriq",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 11:47:55.866570",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Waste Collection Record",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

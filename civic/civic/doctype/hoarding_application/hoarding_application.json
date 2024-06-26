@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:application_id",
+ "creation": "2023-07-03 10:16:56.212957",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "application_id",
+  "business_id",
+  "application_date",
+  "column_break_oljl",
+  "hoarding_location",
+  "hoarding_size",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "application_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Application ID",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "business_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Business ID",
+   "options": "Business Account",
+   "reqd": 1
+  },
+  {
+   "fieldname": "application_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Application Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hoarding_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Hoarding Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "hoarding_size",
+   "fieldtype": "Data",
+   "label": "Hoarding Size",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Pending\nApproved\nRejected",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_oljl",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-10 13:17:16.912362",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Hoarding Application",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

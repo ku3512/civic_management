@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-03 10:16:52.939078",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tariff_category",
+  "unit",
+  "price_per_unit",
+  "column_break_aeck",
+  "effective_from",
+  "effective_until"
+ ],
+ "fields": [
+  {
+   "fieldname": "tariff_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Tariff Category",
+   "options": "Tariff Category",
+   "reqd": 1
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Unit",
+   "options": "Unit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "price_per_unit",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price Per Unit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "effective_from",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Effective From",
+   "reqd": 1
+  },
+  {
+   "fieldname": "effective_until",
+   "fieldtype": "Date",
+   "label": "Effective Until"
+  },
+  {
+   "fieldname": "column_break_aeck",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-07 10:18:52.362986",
+ "modified_by": "Administrator",
+ "module": "civic",
+ "name": "Water Tariff",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
